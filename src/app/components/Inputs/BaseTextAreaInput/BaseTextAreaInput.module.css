@@ -1,0 +1,30 @@
+.base-textarea-input,
+.base-textarea-input-resizable {
+  resize: none;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  padding: 0.5rem;
+}
+
+.base-textarea-input-resizable {
+  resize: vertical;
+  height: auto;
+}
+
+.base-textarea-input:focus {
+  outline: none;
+  outline: 2px solid var(--bx-color-primary-blue);
+}
+
+.base-textarea-input:disabled {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 580px) {
+  .base-textarea-input::placeholder,
+  .base-textarea-input-resizable::placeholder {
+    font-size: small;
+  }
+}

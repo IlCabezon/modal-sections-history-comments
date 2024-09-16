@@ -1,0 +1,126 @@
+[
+  {
+    "id": "666886b222d175f2719ec5689",
+    "eventType": "ComentarioAñadido",
+    "timestamp": "2024-09-12T10:00:00Z",
+    "message": "añadio un comentario",
+    "details": {
+      "previousValue": "",
+      "newValue": "Tu reserva no va a llegar nunca"
+    },
+    "user": {
+      "name": "Victoria",
+      "email": "Victoria@blue.cl"
+    },
+    "booking": {
+      "_id": "666886b222d175f2719ec566",
+      "customer": "Francisco Agustin Castro",
+      "supplier": "Proveedor A",
+      "date": "18/06/2024",
+      "startTime": "12:00",
+      "endTime": "12:30",
+      "reference": "Referencia123",
+      "palletsQuantity": 50,
+      "lumpsQuantity": 30,
+      "volume": 20,
+      "driverName": "Jose",
+      "driverRut": "123456789",
+      "vehiclePatent": "ABC123",
+      "peonetaName": "Pedro",
+      "peonetaRut": "123456789",
+      "email": "francisco@gmail.com"
+    }
+  },
+  {
+    "id": "666886b222d175f2719ec5688",
+    "eventType": "ComentarioAñadido",
+    "timestamp": "2024-09-12T10:00:00Z",
+    "message": "añadio un comentario",
+    "details": {
+      "previousValue": "",
+      "newValue": "¿Cuándo vence mi reserva?"
+    },
+    "user": {
+      "name": "Francisco Agustin Castro",
+      "email": "francisco@gmail.com"
+    },
+    "booking": {
+      "_id": "666886b222d175f2719ec566",
+      "customer": "Francisco Agustin Castro",
+      "supplier": "Proveedor A",
+      "date": "18/06/2024",
+      "startTime": "12:00",
+      "endTime": "12:30",
+      "reference": "Referencia123",
+      "palletsQuantity": 50,
+      "lumpsQuantity": 30,
+      "volume": 20,
+      "driverName": "Jose",
+      "driverRut": "123456789",
+      "vehiclePatent": "ABC123",
+      "peonetaName": "Pedro",
+      "peonetaRut": "123456789",
+      "email": "francisco@gmail.com"
+    }
+  },
+  {
+    "id": "666886b222d175f2719ec5687",
+    "eventType": "ReservaModificada",
+    "timestamp": "2024-09-12T10:00:00Z",
+    "message": "modifico la reserva.",
+    "user": {
+      "name": "Francisco Agustin Castro",
+      "email": "francisco@gmail.com"
+    },
+    "details": {
+      "previousValue": "Juan perez",
+      "newValue": "Francisco Agustin Castro"
+    },
+    "booking": {
+      "_id": "666886b222d175f2719ec566",
+      "customer": "Francisco Agustin Castro",
+      "supplier": "Proveedor A",
+      "date": "18/06/2024",
+      "startTime": "12:00",
+      "endTime": "12:30",
+      "reference": "Referencia123",
+      "palletsQuantity": 50,
+      "lumpsQuantity": 30,
+      "volume": 20,
+      "driverName": "Jose",
+      "driverRut": "123456789",
+      "vehiclePatent": "ABC123",
+      "peonetaName": "Pedro",
+      "peonetaRut": "123456789",
+      "email": "francisco@gmail.com"
+    }
+  },
+  {
+    "id": "666886b222d175f2719ec566",
+    "eventType": "ReservaCreada",
+    "timestamp": "2024-09-12T10:00:00Z",
+    "message": "Reserva Creada",
+    "user": {
+      "name": "Francisco Agustin Castro",
+      "email": "francisco@gmail.com"
+    },
+    "booking": {
+      "_id": "666886b222d175f2719ec566",
+      "customer": "Francisco Agustin Castro",
+      "supplier": "Proveedor A",
+      "date": "18/06/2024",
+      "startTime": "12:00",
+      "endTime": "12:30",
+      "reference": "Referencia123",
+      "palletsQuantity": 50,
+      "lumpsQuantity": 30,
+      "volume": 20,
+      "driverName": "Jose",
+      "driverRut": "123456789",
+      "vehiclePatent": "ABC123",
+      "peonetaName": "Pedro",
+      "peonetaRut": "123456789",
+      "email": "francisco@gmail.com"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+.tab-selector {
+  width: max-content;
+  padding: 0 0.5rem;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 580px) {
+  .tab-selector {
+    width: 100%;
+    padding: 0;
+  }
+}

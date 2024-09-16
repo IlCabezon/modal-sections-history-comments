@@ -1,0 +1,29 @@
+.container-button {
+  background-color: var(--bx-color-primary-blue);
+  color: var(--bx-color-white);
+  letter-spacing: 0.03rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem 2.5rem;
+  width: max-content;
+  min-height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.3s, background-color 0.3s;
+}
+
+.container-button:hover {
+  background-color: var(--bx-color-blue-deep);
+}
+
+@media (max-width: 580px) {
+  .container-button {
+    padding: 0.5rem 1.5rem;
+  }
+  .base-button-children {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.event-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.event-heading-user {
+  font-weight: bold;
+}
+
+.event-heading {
+  margin: 0;
+}
+
+.event-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem
+}
+
+@media (max-width: 580px) {
+  .event-heading {
+    font-size: small;
+  }
+}

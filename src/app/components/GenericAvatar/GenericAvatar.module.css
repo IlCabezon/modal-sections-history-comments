@@ -1,0 +1,16 @@
+.generic-avatar-container {
+  width: 50px;
+  height: 50px;
+  background-color: #d1d1d1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generic-avatar-name {
+  margin: 0;
+  color: var(--bx-color-blue-space);
+  font-size: 1.1rem;
+  font-weight: bold;
+}

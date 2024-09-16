@@ -1,0 +1,16 @@
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.new-commentary-section {
+  display: flex;
+  gap: 1rem;
+}
+
+.comments-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

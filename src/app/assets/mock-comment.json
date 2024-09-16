@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4",
+    "user": {
+      "name": "Victoria",
+      "email": "Victoria@blue.cl"
+    },
+    "comment": "Tu reserva no va a llegar nunca",
+    "timestamp": "2024-09-12T10:00:00Z"
+  },
+  {
+    "id": "3",
+    "user": {
+      "name": "Victoria",
+      "email": "Victoria@blue.cl"
+    },
+    "comment": "Tu reserva no va a llegar nunca",
+    "timestamp": "2024-09-12T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "user": {
+      "name": "Victoria",
+      "email": "Victoria@blue.cl"
+    },
+    "comment": "Tu reserva no va a llegar nunca",
+    "timestamp": "2024-09-12T10:00:00Z"
+  },
+  {
+    "id": "1",
+    "user": {
+      "name": "Francisco Agustin Castro",
+      "email": "francisco@gmail.com"
+    },
+    "comment": "¿Cuándo vence mi reserva?",
+    "timestamp": "2024-09-12T10:00:00Z"
+  }
+]
